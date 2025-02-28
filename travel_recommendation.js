@@ -7,12 +7,21 @@ function search_results() {
     .then((response) => response.json())
     .then((data) => {
       const countries = data.countries;
+      const temples = data.temples;
+      const beaches = data.beaches;
+      console.log(beaches);
+      console.log(temples);
+
       let c = countries.map((element) => element.cities);
-      var cities = [];
+      var citiesTemplesBeaches = [];
       c.forEach((element) => {
-        element.forEach((city) => cities.push(city));
+        element.forEach((city) => citiesTemplesBeaches.push(city));
       });
-      var result_cities = cities
+
+      temples.forEach((element) => citiesTemplesBeaches.push(element));
+      beaches.forEach((element) => citiesTemplesBeaches.push(element));
+
+      var result_cities = citiesTemplesBeaches
         .filter((element) =>
           element.name.toLowerCase().includes(search_input.value.toLowerCase())
         )
