@@ -1,0 +1,71 @@
+h1{
+    font-size: 80px;
+    margin-top: 10px;
+    margin-left: 130px;
+    color: white;
+}
+
+.about-p{
+    color: white;
+    font-size: small;
+    width: 65%;
+    background-color: rgba(45, 44, 44, 0.5);
+    margin-left: 130px;
+    padding: 20px 10px;
+    border-radius: 5px;
+
+}
+.team h2{
+    color: white;
+    font-size: 60px;
+
+}
+.team{
+    display:flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 75%;
+    margin-left: 180px;
+    margin-top: 30px;
+}
+
+.member{
+    background-color:  rgba(21, 21, 21, 0.5);
+    padding: 20px;
+    width: 200px;
+    height: 100px;
+}
+
+.member h3,p{
+    color: white;
+    font-size: small;
+    margin-left: 25px;
+    
+}
+
+
+
+.member div{
+    background-color: rgb(28, 28, 124);
+    text-align: center;
+    padding: 3px;
+    border-radius: 5px;
+    
+}
+
+.member i{
+
+    float: left;
+    font-size: x-large;
+    color: white;
+    margin-right: 13px;
+
+}
+
+.role{
+
+    color: white;
+    font-size: small;
+    margin-left: 25px;
+
+}

@@ -1,0 +1,33 @@
+h1 {
+  font-size: 9vh;
+  width: 10%;
+  color: white;
+  margin-left: 25vh;
+  margin-top: 10vh;
+}
+
+p {
+  color: white;
+  width: 50vh;
+  margin-left: 25vh;
+}
+
+.book-btn {
+  margin-left: 18vh;
+  margin-top: 5vh;
+  padding: 10px 30px;
+  border-radius: 5px;
+  border: none;
+  background-color: rgba(9, 95, 68);
+  color: white;
+  border: solid 1px;
+  cursor: pointer;
+  clear: left;
+  transition: all 0.5s ease-in-out;
+}
+
+.book-btn:hover {
+  color: black;
+  background-color: white;
+  border-color: black;
+}
