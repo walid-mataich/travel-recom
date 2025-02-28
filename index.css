@@ -1,4 +1,4 @@
-h1 {
+.info-h {
   font-size: 9vh;
   width: 10%;
   color: white;
@@ -6,7 +6,7 @@ h1 {
   margin-top: 10vh;
 }
 
-p {
+.info-p {
   color: white;
   width: 50vh;
   margin-left: 25vh;
@@ -30,4 +30,41 @@ p {
   color: black;
   background-color: white;
   border-color: black;
+}
+
+
+article{
+  height: 600px;
+  width: 450px;
+  position: absolute;
+  top: 10%;
+  left: 70%;
+  overflow-y: auto;
+  color: rgb(0, 0, 0);
+}
+
+img{
+  width: 100%;
+  border-radius: 10px;
+}
+
+
+article div{
+  background-color: white;
+  margin:10px 0 ;
+  border-radius: 10px;
+}
+
+.search-info{
+  padding: 10px;
+}
+
+
+.search-info button{
+  padding: 4px 20px;
+  background-color:rgb(27, 115, 56) ;
+  color: white;
+  border-radius: 5px;
+  border: none;
+
 }
