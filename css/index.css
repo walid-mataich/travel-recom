@@ -32,10 +32,9 @@
   border-color: black;
 }
 
-
-article{
-  height: 50vh;
-  width: 450px;
+article {
+  height: 90vh;
+  width: 400px;
   position: absolute;
   top: 10%;
   left: 70%;
@@ -43,28 +42,25 @@ article{
   color: rgb(0, 0, 0);
 }
 
-img{
+img {
   width: 100%;
   border-radius: 10px;
 }
 
-
-article div{
+article div {
   background-color: white;
-  margin:10px 0 ;
+  margin: 10px 0;
   border-radius: 10px;
 }
 
-.search-info{
+.search-info {
   padding: 10px;
 }
 
-
-.search-info button{
+.search-info button {
   padding: 4px 20px;
-  background-color:rgb(27, 115, 56) ;
+  background-color: rgb(27, 115, 56);
   color: white;
   border-radius: 5px;
   border: none;
-
 }
