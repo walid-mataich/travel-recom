@@ -3,7 +3,7 @@ const search_input = document.getElementById("search");
 search_input.innerHTML = "";
 
 function search_results() {
-  fetch("travel_recommendation.json")
+  fetch("json/travel_recommendation.json")
     .then((response) => response.json())
     .then((data) => {
       const countries = data.countries;
